@@ -1,59 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.3.1-dist/css/bootstrap-grid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.3.1-dist/css/bootstrap-reboot.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/bootstrap-4.3.1-dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="/bootstrap-4.3.1-dist/css/bootstrap-grid.css" />
-  <link rel="stylesheet" href="/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" />
-
-  <title>Dashboard</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Cotação em Tempo real</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Início <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Moedas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Dólar</a>
-            <a class="dropdown-item" href="#">Euro</a>
-            <div class="dropdown-divider">Real</div>
-            <a class="dropdown-item" href="#">Libra Esterlina</a>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="conteudo">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="bg-dark col-2">
+            Menu Vertical
+            <nav>
+              <ul>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+              </ul>
+            </nav>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">xxxxxxx</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="<icon class=""/>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
+          <main class="col">
+            <div class="bg-primary col">
+              Menu Horizontal
+              <div>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+              </div>
+            </div>
+            <div class="bg-secondary">
+              Corpo de items
+              <div>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+              </div>
+              <div>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+              </div>
+              <div>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+              </div>
+              <div>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+                <span>TESTE</span>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
     </div>
-  </nav>
 
-  <main></main>
-
-  <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
